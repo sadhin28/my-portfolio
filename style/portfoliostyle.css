@@ -213,3 +213,158 @@ border: 1px solid rgb(0, 0, 0);
     letter-spacing: 0%;
     text-align: left;
 }
+/* resume */
+.resume-continer{
+   display: flex;
+   gap: 24px;
+   text-align: justify;
+   justify-content: space-between;
+   margin-bottom: 20px;
+   padding: 30px;
+}
+
+.resume-column-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-sub-title{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.experience-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume hr{
+    margin: 10px;
+}
+.cv-download{
+    text-align: center;
+    margin: 50px;
+}
+/* footer */
+.footer{
+    background: rgb(255, 248, 243);
+ display: flex;
+ padding: 150px;
+ text-align: justify;
+ justify-content: space-around;
+ gap: 30px;
+}
+.footer-column{
+    width: 30%;
+}
+.footer-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align:left;
+
+}
+.fr{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 200;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+/* .form .form-content{
+    padding: 40px;
+} */
+.input{
+    size: 20px;
+}
+footer input[type="text"]{
+    border-radius: 5px;
+
+background: rgb(255, 255, 255);
+
+/* Rectangle 16 */
+position: absolute;
+width: 300px;
+height: 50px;
+display: block;
+padding: 5px 5px;
+}
+footer input[type="email"]{
+ 
+    border-radius: 5px;
+
+    background: rgb(255, 255, 255);
+    
+    /* Rectangle 16 */
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    display: block;
+    padding: 5px 5px;
+}
+textarea{
+    border-radius: 5px;
+
+    background: rgb(255, 255, 255);
+    
+    /* Rectangle 16 */
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 100px;
+    display: block;
+    padding: 5px 5px;
+}
+
+.btn-form{
+    border-radius: 5px;
+
+background: rgb(253, 110, 10);
+padding: 10px;
+color: aliceblue;
+font-size: 20px;
+border: none;
+cursor: pointer;
+margin-top: 200px;
+margin-left: 30%;
+margin-bottom: 50px;
+
+}
+.copy-right{
+    text-align: center;
+
+}
+
+.footer-column .icon-foot .a{
+gap: 70px;
+height: 40px;
+margin-top: 200px;
+}
