@@ -431,16 +431,18 @@
         padding: 20px;
         flex-direction: column;
     }
-    background: rgb(255, 248, 243); */
-    display: flex
-;
-    /* padding: 100px; */
+
+   .footer{
+    background: rgb(255, 248, 243);
+    display:flex;
+    padding: 100px;
     text-align: justify;
-    /* justify-content: space-around; */
-    /* gap: 30px; */
+    justify-content: space-around;
+    gap: 30px;
     flex-direction: column-reverse;
+   }
 }
-}
+
 @media screen and (min-width:576px) and (max-width:992px) {
     .skils-container {
         display: flex
