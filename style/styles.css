@@ -6,30 +6,47 @@
     }
     .btn-primary{
         border-radius: 5px;
-    
+    font-style: open sans;
     background: rgb(253, 110, 10);
     padding: 10px;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 1em;
     border: none;
     margin-right: 20px;
     cursor: pointer;
     
     }
-.header-banner{
-width:100%;
-height: 837px;
-left: 0;
-right: 0;
-top: 0;
-background: rgba(255, 248, 243, 0.58);
-background-image:url(/icons/header_bg.png);
-background-repeat:no-repeat; 
-border: black solid;
+    /* nav styles */
+    nav {
+        display: flex
+    ;
+        font-family: Open Sans;
+        font-size: 2em;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 200px;
+        align-content: center;
+    }
+.dark-2{
+    color: #474747;
 }
-.header-banner img{
-   
+.nav-title{
+    font-weight: 800;
+    font-size:3rem;
 }
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1em;  
+}
+nav ul{
+    display: flex;
+}
+
 
    /* main style */
     .main-main{
@@ -321,16 +338,51 @@ border: black solid;
             padding: 30px;
             flex-direction: column;
         }
-       
+        nav {
+            display: flex
+        ;
+            font-family: Open Sans;
+            font-size: 2em;
+            justify-content: space-evenly;
+            margin: 20px 200px;
+            align-items: center;
+            flex-direction: column;
+          
+        }
+        nav ul {
+            display: flex
+        ;
+            justify-content: space-evenly;
+            align-content: stretch;
+            align-items: center;
+            /* margin: 0 auto; */
+        }
+
+        .btn-primary{
+            font-size: 20px;
+            width: 100px; 
+            font-family: Open Sans;
+            align-items: center;
+         }
+        .main-main .cv-download button{
+            font-family: Open Sans;
+            font-weight: 800;
+            width: 140px;
+            font-size:;
+            border-radius: 5px;
+
+            background: rgb(253, 110, 10);
+            
+        }
+         
         .footer {
-            background: rgb(255, 248, 243);
+            /* background: rgb(255, 248, 243);
             display: flex;
             text-align: justify;
             gap: 30px;
             flex-direction: column-reverse;
-            /* margin: 0 auto; */
             width: 100%;
-            padding: 10px;
+            padding: 10px; */
         }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -377,5 +429,30 @@ border: black solid;
         padding: 30px;
         border: black solid;
         border-radius: 5px;
+    }
+    nav {
+        display: flex;
+        font-family: Open Sans;
+        font-size: 2em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .btn-primary{
+       font-size: 20px;
+       width: 100px; 
+       font-family: Open Sans;
+       align-items: center;
+    }
+    .main-main .cv-download button{
+        font-family: Open Sans;
+        font-weight: 800;
+        width: 140px;
+        font-size:;
+        border-radius: 5px;
+
+        background: rgb(19, 104, 209);
+        
     }
 }
