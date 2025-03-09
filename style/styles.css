@@ -470,7 +470,7 @@ text-align: justify;
         
        
 }
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:677px) and (max-width:1092px) {
     .about {
         text-align: center;
         padding: 100px 100px;
@@ -482,8 +482,7 @@ text-align: justify;
         background: rgb(255, 255, 255);
     }
     .about-item {
-        display: flex
-    ;
+        display: flex;
         justify-content: space-between;
         font-size: 1em;
         color: rgb(117, 117, 117);
