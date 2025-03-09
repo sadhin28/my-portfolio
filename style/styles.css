@@ -46,8 +46,58 @@ nav li a{
 nav ul{
     display: flex;
 }
+/* banner style */
+.banner-header-developer{
+    background: rgba(255, 248, 243, 0.58);
+    background-image: url(/icons/developer.png), url(/icons/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-position-y:bottom;
+    height:auto;
+    
+}
+.banner{
+    display: flex;
+    justify-content:space-between;
+    margin: 0  0 0 120px;
+    /* max-width: 100%; */
+    /* max-height: 837px; */
+}
+.banner-greating{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 2em;
+font-weight: 600;
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 3em;
+font-weight: 700;
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 1rem;
+font-weight: 400;
+text-align: justify;
 
-
+}
+.banner-content{
+    /* border: 1px black solid; */
+    max-width: 580px;
+    padding: 40px;
+    /* margin-left:30px; */
+    
+}
+.banner-profile-pic{
+    width: 580px;
+    /* border: 1px black solid; */
+    /* padding: 40px; */
+}
+.banner-header{
+    background-image: url(/icons/developer.png);
+}
    /* main style */
     .main-main{
         max-width: 1140px;
@@ -376,13 +426,37 @@ nav ul{
         }
          
         .footer {
-            /* background: rgb(255, 248, 243);
+            background: rgb(255, 248, 243);
             display: flex;
             text-align: justify;
             gap: 30px;
             flex-direction: column-reverse;
             width: 100%;
-            padding: 10px; */
+            padding: 10px;
+        }
+        .footer input[type="text"], .footer input[type="email"],footer textarea{
+            width: calc(100% - 40px);
+        }
+        .banner {
+            display: flex;
+            margin: 0 0 0 30px;
+            flex-direction: column-reverse;
+        }
+        .banner-content {
+            /* border: 1px black solid; */
+            padding: 40px;
+            margin-left: 70px;
+            /* margin: 0 auto; */
+            width: 100%;
+        }
+
+        .banner-header-developer {
+            /* background: rgba(255, 248, 243, 0.58); */
+            background-image: url(/icons/developer.png);
+            background-repeat: no-repeat;
+            background-position: top left, center;
+            background-position-y: center;
+            height: auto;
         }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
