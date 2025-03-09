@@ -388,6 +388,17 @@ text-align: justify;
             padding: 30px;
             flex-direction: column;
         }
+        .resume .section-title{
+            
+                text-align: center;
+                font-family: open sans;
+                font-size: 20px;
+                /* margin-left: 40px; */
+                justify-content: center;
+                align-items: center;
+
+            
+        }
         nav {
             display: flex
         ;
