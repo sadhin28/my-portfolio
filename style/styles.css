@@ -16,138 +16,22 @@
     cursor: pointer;
     
     }
-    nav {
-        display: flex;
-        font-family: Open Sans;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0px 200px;
-     
-    }
-    nav ul{
-        display:flex ;
-        align-items: center;
-    }
-    nav ul li{
-        list-style: none;
-        margin-right: 51px;
-       
-        text-decoration: none;
-        
-    }
-    nav ul a{
-         
-        text-decoration:none;
-        font-size: 20px;
-        color: #474747;
-    
-        
-        
-        
-        
-    }
-    .nav-title{
-        font-size: 45px;
-        font-weight:800;
-        
-    }
-    /* banner styles*/
-    
-    .banner{
-    
-        display: flex;
-      max-height: 500px;
-      margin-left: 150px;
-      text-align: center;
-      justify-content: space-between;
-      
-      
-    }
-    .header-banner{
-        background-color: aliceblue;
-        padding: 30px 30px 0 0 ;
-    
-        background: rgba(255, 248, 243, 0.58);
-       
-        
-      
-       
-    }
-    
-    .banner.banner-content{
-        padding: 40px 20px;
-        margin-left: 50px;
-    
-     }
-    
-    .banner-greatings{
-        color: rgb(71, 71, 71);
-        font-family: Open Sans;
-        font-size: 45px;
-        font-weight: 600;
-        line-height: 61px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    .banner-title{
-        color: rgb(24, 24, 24);
-    font-family: Open Sans;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 76px;
-    letter-spacing: 0%;
-    text-align: left;
-    }
-    .banner-description{
-        color: rgb(117, 117, 117);
-    font-family: Open Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0%;
-    text-align:center;
-    margin-top: -25px;
-    
-    }
-    /* .banner-profile-pic{
-        width: 400px;
-        /* margin-left: 300px;
-        padding-left: 30px;
-         */
-    } */
-    
-    .ss:hover{
-        border-radius: 5px;
-    
-    background: rgb(253, 110, 10);
-    padding: 10px;
-    color: aliceblue;
-    font-size: 20px;
-    border: none;
-    margin-right: 20px;
-    
-    }
-    .section-title{
-        color: rgb(24, 24, 24);
-    font-family: Open Sans;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: center;
-    }
-    .sectin-description{
-        color: rgb(117, 117, 117);
-    font-family: Open Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0%;
-    text-align: center;
-    background-color: ;
-    
-    }
-    /* main style */
+.header-banner{
+width:100%;
+height: 837px;
+left: 0;
+right: 0;
+top: 0;
+background: rgba(255, 248, 243, 0.58);
+background-image:url(/icons/header_bg.png);
+background-repeat:no-repeat; 
+border: black solid;
+}
+.header-banner img{
+   
+}
+
+   /* main style */
     .main-main{
         max-width: 1140px;
         margin: 0 auto;
@@ -183,7 +67,7 @@
     /* what i do */
     .what-i-do{
         text-align: center;
-        padding: 130px 150px;
+        padding: 10px 10px;
         border-radius: 10px;
         background: rgb(199, 243, 215);
         margin-top: 100px;
@@ -374,136 +258,124 @@
 .no{
     display: none;
 }
-@media screen and (max-width:576px) {
-    .skils-container {
+
+@media screen  and (max-width:576px){
+    .about {
+        width: 100%;
+        text-align: center;
+        padding: 2px 2px;
+        border-radius: 10px;
+        margin: 0 auto;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    .about-item {
         display: flex;
+        font-size: 15px;
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .skils-container {
+        display: flex
+    ;
         justify-content: space-between;
         gap: 10px;
         flex-direction: column;
     }
-    .what-i-do {
+
+    .sectin-description {
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
         text-align: center;
-        padding: 20px 20px;
+        background-color: ;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+        .what-i-do {
+            text-align: center;
+           
+            border-radius: 10px;
+            background: rgb(180, 208, 96);
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border: 1px solid rgb(95, 157, 24);
+        }
+    
+        .resume-continer {
+            display: flex
+        ;
+            
+            text-align: justify;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 30px;
+            flex-direction: column;
+        }
+       
+        .footer {
+            background: rgb(255, 248, 243);
+            display: flex;
+            text-align: justify;
+            gap: 30px;
+            flex-direction: column-reverse;
+            /* margin: 0 auto; */
+            width: 100%;
+            padding: 10px;
+        }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .about {
+        text-align: center;
+        padding: 100px 100px;
         border-radius: 10px;
-        background: rgb(199, 243, 215);
         margin-top: 100px;
         margin-bottom: 100px;
-        border: 1px solid rgb(95, 157, 24);
-        
+        box-sizing: border-box;
+        border: 1px solid rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
     }
-    nav {
+    .about-item {
         display: flex
-    ;   
-        width: 100%;
-        font-family: Open Sans;
-        align-items: center;
+    ;
         justify-content: space-between;
-        /* margin: 0px 200px; */
-        width: fit-content;
-        margin: 0 auto;
-        background-color: rgb(61, 169, 18);
-        padding: 4px;
-    }
-    .btn-primary {
-        border-radius: 7px;
-        background: rgb(253, 110, 10);
-        /* padding: 10px; */
-        color: aliceblue;
         font-size: 1em;
-        border: none;
-        /* margin-right: 1em; */
-        cursor: pointer;
-        width: 100px;
-        height: 50px;
-    }
-    .header-banner {
-        /* background-color: aliceblue; */
-        /* padding: 30px 30px 0 0; */
-        /* background: rgba(255, 248, 243, 0.58); */
-        width: 100%;
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
     }
     .resume-continer {
-        display: flex;
+        display: flex
+    ;
         gap: 24px;
         text-align: justify;
         justify-content: space-between;
         margin-bottom: 20px;
-        padding: 20px;
-        flex-direction: column;
+        padding: 30px;
+        border: black solid;
+        border-radius: 5px;
     }
-
-   .footer{
-    background: rgb(255, 248, 243);
-    display:flex;
-    padding: 100px;
-    text-align: justify;
-    justify-content: space-around;
-    gap: 30px;
-    flex-direction: column-reverse;
-   }
-}
-
-@media screen and (min-width:576px) and (max-width:992px) {
-    .skils-container {
+    .resume-continer {
         display: flex
     ;
+        gap: 24px;
+        text-align: justify;
         justify-content: space-between;
-        gap: 10px;
-        flex-direction: row;
-    }
-    .what-i-do {
-        text-align: center;
-        padding: 10px 10px;
-        border-radius: 10px;
-        background: rgb(199, 243, 215);
-        margin-top: 100px;
-        margin-bottom: 100px;
-        border: 1px solid rgb(95, 157, 24);
-        
-    }
-    nav {
-        display: flex
-    ;
-        font-family: Open Sans;
-        align-items: center;
-        /* justify-content: space-between; */
-        /* margin: 0px 200px; */
-        width: fit-content;
-        margin: 0 auto;
-        background-color: blue;
-        padding: 2px;
-    }
-    .btn-primary {
-        border-radius: 7px;
-        background: rgb(253, 110, 10);
-        padding: 10px;
-        color: aliceblue;
-        font-size: 1em;
-        border: none;
-        margin-right: 1em;
-        cursor: pointer;
-        width: 100px;
-        height: 50px;
-    }
-    .header-banner {
-        /* background-color: aliceblue; */
-        /* padding: 30px 30px 0 0; */
-        /* background: rgba(255, 248, 243, 0.58); */
-        width: 100%;
-    }
-    .footer {
-        /* background: rgb(255, 248, 243); */
-        display: flex
-    ;
-        padding: 10x;
-        /* text-align: justify; */
-        justify-content: center;
-        /* gap: 30px; */
-        /* flex-wrap: wrap; */
-        align-content: flex-end;
-        /* align-items: center; */
-        /* width: 100%; */
-        flex-direction: row;
-        justify-content: space-between;
+        margin-bottom: 20px;
+        padding: 30px;
+        border: black solid;
+        border-radius: 5px;
     }
 }
