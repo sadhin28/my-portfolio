@@ -4,7 +4,7 @@
     body{
     
         width: 100%;
-
+        margin:0 auto;
     }
     .main-main{
         max-width: 1140px;
@@ -470,7 +470,7 @@ text-align: justify;
         
        
 }
-@media screen and (min-width:577px) and (max-width:892px) {
+@media screen and (min-width:577px) and (max-width:992px) {
     .about {
         text-align: center;
         padding: 100px 100px;
