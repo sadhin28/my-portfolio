@@ -470,7 +470,7 @@ text-align: justify;
         
        
 }
-@media screen and (min-width:677px) and (max-width:1092px) {
+@media screen and (min-width:577px) and (max-width:892px) {
     .about {
         text-align: center;
         padding: 100px 100px;
@@ -491,10 +491,18 @@ text-align: justify;
         line-height: 30px;
         letter-spacing: 0%;
         text-align: center;
+        flex-direction: column;
+    }
+    .skils-container {
+        display: flex
+    ;
+        justify-content: space-between;
+        gap: 10px;
+        flex-direction: column;
     }
     .resume-continer {
         display: flex
-    ;
+;
         gap: 24px;
         text-align: justify;
         justify-content: space-between;
@@ -502,6 +510,7 @@ text-align: justify;
         padding: 30px;
         border: black solid;
         border-radius: 5px;
+        flex-direction: column;
     }
    
     nav {
@@ -529,5 +538,15 @@ text-align: justify;
         
     }
     
+    .footer {
+        background: rgb(255, 248, 243);
+        display: flex
+    ;
+        padding: 100px;
+        text-align: justify;
+        justify-content: space-around;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
   
 }
