@@ -451,24 +451,20 @@ text-align: justify;
         .banner {
             display: flex;
             margin: 0 0 0 30px;
-            flex-direction: column-reverse;
+            flex-direction:column;
         }
-        .banner-content {
-            /* border: 1px black solid; */
-            padding: 40px;
-            margin-left: 70px;
-            /* margin: 0 auto; */
+        .banner-content {        
+                padding: 3px;
             width: 100%;
         }
-
-        .banner-header-developer {
-            /* background: rgba(255, 248, 243, 0.58); */
-            background-image: url(/icons/developer.png);
-            background-repeat: no-repeat;
-            background-position: top left, center;
-            background-position-y: center;
-            height: auto;
-        }
+       
+        .banner-profile-pic {
+                width: 100%;
+                /* margin-left: 20%; */
+         }
+    
+        
+       
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .about {
@@ -504,17 +500,7 @@ text-align: justify;
         border: black solid;
         border-radius: 5px;
     }
-    .resume-continer {
-        display: flex
-    ;
-        gap: 24px;
-        text-align: justify;
-        justify-content: space-between;
-        margin-bottom: 20px;
-        padding: 30px;
-        border: black solid;
-        border-radius: 5px;
-    }
+   
     nav {
         display: flex;
         font-family: Open Sans;
@@ -540,4 +526,6 @@ text-align: justify;
         background: rgb(19, 104, 209);
         
     }
+    
+  
 }
